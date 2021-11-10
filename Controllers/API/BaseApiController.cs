@@ -1,7 +1,11 @@
+using Microsoft.AspNetCore.Mvc;
+
 namespace fs_auth.Controllers
 {
-    public class BaseApiController
+    [ApiController]
+    [Route("api/[controller]")]
+    public class BaseApiController : ControllerBase
     {
-        
+
     }
 }

@@ -39,3 +39,12 @@
 /Users/tiendatnguyen/Documents/dotNetWorkspace/Backend/fs_auth/bin/Debug/net5.0/System.Diagnostics.DiagnosticSource.dll
 /Users/tiendatnguyen/Documents/dotNetWorkspace/Backend/fs_auth/bin/Debug/net5.0/Humanizer.dll
 /Users/tiendatnguyen/Documents/dotNetWorkspace/Backend/fs_auth/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/tiendatnguyen/Documents/dotNetWorkspace/Backend/fs_auth/bin/Debug/net5.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/tiendatnguyen/Documents/dotNetWorkspace/Backend/fs_auth/bin/Debug/net5.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/tiendatnguyen/Documents/dotNetWorkspace/Backend/fs_auth/bin/Debug/net5.0/Microsoft.IdentityModel.Logging.dll
+/Users/tiendatnguyen/Documents/dotNetWorkspace/Backend/fs_auth/bin/Debug/net5.0/Microsoft.IdentityModel.Protocols.dll
+/Users/tiendatnguyen/Documents/dotNetWorkspace/Backend/fs_auth/bin/Debug/net5.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/tiendatnguyen/Documents/dotNetWorkspace/Backend/fs_auth/bin/Debug/net5.0/Microsoft.IdentityModel.Tokens.dll
+/Users/tiendatnguyen/Documents/dotNetWorkspace/Backend/fs_auth/bin/Debug/net5.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/tiendatnguyen/Documents/dotNetWorkspace/Backend/fs_auth/bin/Debug/net5.0/AutoMapper.dll
+/Users/tiendatnguyen/Documents/dotNetWorkspace/Backend/fs_auth/bin/Debug/net5.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
