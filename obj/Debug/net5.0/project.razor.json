@@ -15617,6 +15617,12 @@
     "CSharpLanguageVersion": 900
   },
   "RootNamespace": "fs_auth",
-  "Documents": [],
+  "Documents": [
+    {
+      "FilePath": "/Users/tiendatnguyen/Documents/dotNetWorkspace/Backend/fs_auth/RazorPages/test.cshtml",
+      "TargetPath": "RazorPages\\test.cshtml",
+      "FileKind": "mvc"
+    }
+  ],
   "SerializationFormat": "0.2"
 }

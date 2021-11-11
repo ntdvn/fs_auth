@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using System.Security.Claims;
+using System.Text;
 using System.Threading.Tasks;
 using fs_auth.Entities;
 using fs_auth.Interfaces;
@@ -16,13 +17,11 @@ namespace fs_auth.Services
     {
         private readonly SymmetricSecurityKey _key;
         private readonly UserManager<ApplicationUser> _userManager;
-        private readonly IConfiguration configuration;
-        private readonly UserManager<ApplicationUser> userManager;
 
         public TokenService(IConfiguration configuration, UserManager<ApplicationUser> userManager)
         {
-            this.userManager = userManager;
-            this.configuration = configuration;
+             _userManager = userManager;
+            _key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration["TokenKey"]));
         }
 
         public async Task<string> BuildToken(ApplicationUser user)
